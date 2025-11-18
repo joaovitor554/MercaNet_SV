@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mercanet SV - Plataforma de compras conectando você às melhores lojas locais de São Vicente">
+    <meta name="theme-color" content="#0C7884">
+    <title>Mercanet SV - Marketplace Local de São Vicente</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="navbar-content">
+                    <div class="navbar-brand">
+                        <a href="index.html" class="logo">
+                            <img src="/images/logo-20mercanet-20sv-20e-20paleta-20de-20cores-20-281-29.png" alt="Mercanet SV" class="logo-img">
+                        </a>
+                    </div>
+
+                    <button class="menu-toggle" id="menuToggle">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+
+                    <ul class="nav-menu" id="navMenu">
+                        <li><a href="#lojas" class="nav-link">Lojas</a></li>
+                        <li><a href="#sobre" class="nav-link">Sobre</a></li>
+                        <li><a href="#contato" class="nav-link">Contato</a></li>
+                        <li class="nav-auth">
+                            <button class="btn-login" id="btnLogin">Login</button>
+                            <button class="btn-cadastro" id="btnCadastro">Cadastro</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Compre Localmente, Ganhe Tempo</h1>
+                <p class="hero-subtitle">Acesso a todas as melhores lojas de São Vicente em uma única plataforma</p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary" id="heroCta">Explorar Lojas</button>
+                    <button class="btn btn-outline">Saiba Mais</button>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="/images/chatgpt-20image-2010-20de-20out.png" alt="Mercanet" class="hero-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="sobre">
+        <div class="container">
+            <h2 class="section-title">Por Que Escolher Mercanet?</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon icon-1">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z"/><path d="M10 17l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                        </svg>
+                    </div>
+                    <h3>Segurança Garantida</h3>
+                    <p>Compras protegidas e pagamento seguro em todas as transações</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon icon-2">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
+                            <path d="M9 2L6.46 6H2v2h2.54L6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2l1.54-11H22V6h-4.54L18 2H9z"/><path d="M12 9v8M9 13h6"/>
+                        </svg>
+                    </div>
+                    <h3>Entrega Rápida</h3>
+                    <p>Entregas ágeis ou retirada no local conforme sua preferência</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon icon-3">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z"/><path d="M12 6v6h6"/>
+                        </svg>
+                    </div>
+                    <h3>Loja Aberta 24/7</h3>
+                    <p>Compre quando quiser, onde quiser. Sem limites de horário</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon icon-4">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
+                            <path d="M12 2L15.09 8.26H22L17.82 12.44 19.91 18.71 12 14.53 4.09 18.71 6.18 12.44 2 8.26h6.91z"/>
+                        </svg>
+                    </div>
+                    <h3>Promoções Diárias</h3>
+                    <p>Descubra ofertas incríveis e economize comprando localmente</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon icon-5">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/><circle cx="12" cy="12" r="2"/>
+                        </svg>
+                    </div>
+                    <h3>Comércio Local</h3>
+                    <p>Apoie pequenas empresas e fortaleça a economia de São Vicente</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon icon-1">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
+                            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/>
+                        </svg>
+                    </div>
+                    <h3>Atendimento Dedicado</h3>
+                    <p>Suporte ao cliente sempre pronto para ajudar</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stores Section -->
+    <section class="stores-section" id="lojas">
+        <div class="container">
+            <h2 class="section-title">Lojas Parceiras</h2>
+            <p class="section-subtitle">Descubra as melhores lojas de São Vicente</p>
+            <div class="stores-grid" id="storesGrid"></div>
+            <div class="see-more">
+                <button class="btn btn-primary" id="btnVerMais">Ver Todas as Lojas</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Comece a Comprar Agora</h2>
+                <p>Junte-se a milhares de clientes satisfeitos em São Vicente</p>
+                <button class="btn btn-primary" id="ctaButton">Criar Minha Conta</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h4>Mercanet SV</h4>
+                    <p>O marketplace que conecta você ao comércio local</p>
+                </div>
+                <div class="footer-column">
+                    <h4>Links</h4>
+                    <ul>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#lojas">Lojas</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#">Termos de Uso</a></li>
+                        <li><a href="#">Privacidade</a></li>
+                        <li><a href="#">Cookies</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Contato</h4>
+                    <p>Email: contato@mercanet.sv</p>
+                    <p>Tel: (84) 3000-0000</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Mercanet SV. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Login Modal -->
+    <div class="modal" id="loginModal">
+        <div class="modal-content">
+            <button class="modal-close" id="closeLogin">&times;</button>
+            <h2>Entrar na Sua Conta</h2>
+            <form id="loginForm" class="form">
+                <div class="form-group">
+                    <label for="loginEmail">Email</label>
+                    <input type="email" id="loginEmail" required placeholder="seu@email.com">
+                </div>
+                <div class="form-group">
+                    <label for="loginPassword">Senha</label>
+                    <input type="password" id="loginPassword" required placeholder="••••••••">
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Entrar</button>
+                <p class="form-hint">Não tem conta? <a href="#" id="switchToCadastro" class="link">Cadastre-se</a></p>
+            </form>
+        </div>
+    </div>
+
+    <!-- Cadastro Modal -->
+    <div class="modal" id="cadastroModal">
+        <div class="modal-content">
+            <button class="modal-close" id="closeCadastro">&times;</button>
+            <h2>Criar Nova Conta</h2>
+            <form id="cadastroForm" class="form">
+                <div class="form-group">
+                    <label for="cadastroNome">Nome Completo</label>
+                    <input type="text" id="cadastroNome" required placeholder="Seu Nome">
+                </div>
+                <div class="form-group">
+                    <label for="cadastroEmail">Email</label>
+                    <input type="email" id="cadastroEmail" required placeholder="seu@email.com">
+                </div>
+                <div class="form-group">
+                    <label for="cadastroPassword">Senha</label>
+                    <input type="password" id="cadastroPassword" required placeholder="••••••••">
+                </div>
+                <div class="form-group">
+                    <label for="cadastroConfirm">Confirmar Senha</label>
+                    <input type="password" id="cadastroConfirm" required placeholder="••••••••">
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Cadastrar</button>
+                <p class="form-hint">Já tem conta? <a href="#" id="switchToLogin" class="link">Faça login</a></p>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
